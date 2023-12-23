@@ -1,0 +1,222 @@
+
+/*header*/
+header {
+    background-color: rgb(71, 69, 69);
+    color: white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+  }
+  
+    .inicio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  20px; 
+    }
+    
+    .fotoMenu {
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        
+    }
+    
+    .fotoMenu img {
+        margin-right: 10px;  
+    padding: auto;   
+    }
+    
+    .fotoMenu h5 {
+        padding: auto;
+    }
+    
+    .listaMenu ul {
+        list-style-type: none;
+        padding: 0;
+        
+    }
+    
+    .listaMenu ul li {
+        display: inline;
+        margin-right: 20px; 
+        margin-bottom: 10px;
+    }
+    
+    .listaMenu ul li a {
+        text-decoration: none;
+        color:gray;
+    }
+ 
+   
+      
+  
+  
+/* oradores en cartas*/
+
+.card-group{
+    margin-right:200px ;
+    margin-left: 200px;
+     
+}
+.card{
+    margin: 20px;
+margin-inline-start:  20px;    
+}
+.preludio{
+    padding-top: 15px;
+    text-align: center;
+    margin:0;
+    line-height: 1px;
+}
+.centro{
+text-align: left;
+    
+    margin:0;
+    
+}
+
+
+    
+
+
+
+
+
+/*imagen de la playa*/
+.fotoDePlaya{
+margin-top: 20px;
+display: flex;
+}
+
+.carta{
+    flex: 1;
+    width: 50%;
+}
+.textop{
+    border-left: 10p solid white;
+    flex: 1;
+    background-color:rgb(71, 69, 69);
+    color: white;
+    justify-content: right;
+    padding-left: 10px; 
+}
+.textop p{
+    font-size: small;
+}
+.btn {
+    background-color: rgb(71, 69, 69);
+    color: white !important;
+    padding: 5px 10px !important; 
+    font-size: 12px !important; 
+    margin-top: 10px;
+  }
+  
+
+
+
+/*registro */
+
+
+.registro{
+    line-height: 1px;
+    text-align: center;
+}
+
+
+.funcionRegistro {
+  text-align: center;
+  width: 1000px; /* Ancho del contenedor principal (ajusta según tus necesidades) */
+  margin: 0 auto;
+ 
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas si no caben */
+
+  align-items: center; /* Alinea verticalmente al centro */
+}
+
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+.input1 {
+  height: 30px;
+  width: calc(50% - 15px); /* Ancho del 50% menos el espacio de separación */
+  padding: 5px;
+
+  margin-right: 15px; 
+  
+}
+
+.input2 {
+  height: 30px;
+  width: calc(50% - 15px); /* Ancho del 50% menos el espacio de separación */
+  padding: 5px;
+  
+ 
+}
+
+
+#textarea {
+  height: 70px;
+  width: 100%;
+  padding: 5px;
+  padding-top: 10px;
+  border: 1px solid gray;
+  color: gray;
+  
+}
+
+  .botonin{
+   
+      height: 30px;
+      width: 600px; 
+      background-color: #96c93e; 
+      border: 1px solid #999;
+      border-radius: 4px; 
+      color:white;
+    padding-bottom: 10px;
+   
+    
+  }
+  .ptext{
+    font-size: small !important;
+    color: gray;
+    text-align: left !important;
+  }
+  
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  .men {
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .men li {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px ;
+    padding: 20px 20px; 
+  }
+  
+ 
+  .men li a {
+    text-decoration: none; 
+    color:white; 
+  }
+  
+
+
+
